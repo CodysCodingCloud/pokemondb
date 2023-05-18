@@ -1,0 +1,1 @@
+CREATE OR DROP TABLE pokemon

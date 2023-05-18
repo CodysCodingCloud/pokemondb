@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS moves;
+CREATE TABLE moves (
+  id INTEGER SERIAL NOT NULL UNIQUE PRIMARY KEY,
+  accuracy iNTEGER,
+  name TEXT,
+  power INTEGER,
+  pp INTEGER,
+  FOREIGN KEY (type) REFERENCES types (id)
+)
